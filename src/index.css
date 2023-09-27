@@ -1,65 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 body {
   margin: 0;
-  font-family:Inter,sans-serif;
+  font-family: Inter, sans-serif;
   height: 100vh;
-  background-color: #282D35;
+  background-color: #282d35;
 }
 
-main{
-    padding: 57px 27px;
-    color:white;
-    background-image: url('./Assets/react-icon-large.png');
-    background-repeat: no-repeat;
-    background-position: right 75%;
-
+main {
+  padding: 57px 27px;
+  color: white;
+  background-image: url("./Assets/react-icon-large.png");
+  background-repeat: no-repeat;
+  background-position: right 75%;
 }
 
 nav {
-    display: flex;
-    align-items: center;
-    background-color: #21222A;
-    height: 90px;
-    padding: 30px 25px;
+  display: flex;
+  align-items: center;
+  background-color: #21222a;
+  height: 90px;
+  padding: 30px 25px;
 }
 
-nav > h3, nav > h4 {
-    margin: 0;
+nav > h3,
+nav > h4 {
+  margin: 0;
 }
 
 nav > h3 {
-    margin-right: auto;
-    color: #61DAFB;
-    font-weight: 700;
-    font-size: 22px;
+  margin-right: auto;
+  color: #61dafb;
+  font-weight: 700;
+  font-size: 22px;
 }
 
 nav > h4 {
-    color: #DEEBF8;
-    font-weight: 600;
+  color: #deebf8;
+  font-weight: 600;
 }
 
 nav > img {
-    height: 30px;
-    margin-right: 7px;
+  height: 30px;
+  margin-right: 7px;
 }
 
-
-.main--title{
-  margin:0;
+.main--title {
+  margin: 0;
   font-size: 39px;
   letter-spacing: -0.05em;
-
 }
-.main--list{
+.main--list {
   margin-top: 46px;
 }
 
-.main--list> li{
+.main--list > li {
   line-height: 19px;
-  padding-block:15px;
+  padding-block: 15px;
 }
-.main--list>li::marker{
-  color:#61DAFB;
+.main--list > li::marker {
+  color: #61dafb;
   font-size: 20px;
-
 }
